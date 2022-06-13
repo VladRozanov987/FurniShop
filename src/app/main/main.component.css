@@ -1,15 +1,28 @@
+
+
 .wedo {
   width: 100%;
   height: 100vh;
 }
 
 .main__info{
+  margin: 85px 0;
   padding: 38px 38px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   background: #286F6C;
   border-radius: 20px;
-  margin-bottom: 85px;
+}
+
+
+
+
+
+
+
+.main-btn:hover{
+  transform: scale(1.2);
+  background: rgba(226, 226, 226, 0.4);
 }
 
 .main__info-column:not(:last-child){
