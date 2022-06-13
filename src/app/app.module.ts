@@ -28,7 +28,8 @@ import { FooterComponent } from './footer/footer.component';
     WedoComponent,
     SliderComponent,
     FormComponent,
-    FooterComponent,],
+    FooterComponent,
+    SliderComponent,],
   imports: [
     BrowserModule,
     SwiperModule,
