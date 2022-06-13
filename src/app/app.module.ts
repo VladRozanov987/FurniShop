@@ -23,8 +23,8 @@ import { SwiperModule } from 'swiper/angular';
     NewprodComponent,
     HeroComponent,
     CouterComponent,
-    WedoComponent,  ],
-    SliderComponent,  ],
+    WedoComponent,
+    SliderComponent,],
   imports: [
     BrowserModule,
     SwiperModule,
