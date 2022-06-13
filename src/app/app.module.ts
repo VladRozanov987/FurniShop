@@ -13,6 +13,8 @@ import { HeroComponent } from './main/hero/hero.component';
 import { CouterComponent } from './main/counter/counter.component';
 import { WedoComponent } from './main/wedo/wedo.component';
 import { SliderComponent } from './main/slider/slider.component';
+import { FormComponent } from './main/form/form.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,10 @@ import { SliderComponent } from './main/slider/slider.component';
     HeroComponent,
     CouterComponent,
     WedoComponent,
-    SliderComponent,  ],
+    SliderComponent,
+    FormComponent,
+    FooterComponent,],
+
   imports: [
     BrowserModule,
     SwiperModule,

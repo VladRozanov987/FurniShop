@@ -13,4 +13,16 @@
 }
 
 .wedo {
+
+}
+
+.form {
+  padding: 100px 0 0 0;
+  display: block;
+  width: 100%;
+  height: 490px;
+  background-image: url(./../../assets/img/form-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
