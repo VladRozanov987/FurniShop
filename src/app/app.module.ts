@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from "@angular/forms";
 import { CommonModule } from '@angular/common';
+import { SwiperModule } from 'swiper/angular';
 
 import { HeaderComponent } from './header/header.component';
 import { AppComponent } from './app.component';
@@ -12,7 +13,6 @@ import { HeroComponent } from './main/hero/hero.component';
 import { CouterComponent } from './main/counter/counter.component';
 import { WedoComponent } from './main/wedo/wedo.component';
 import { SliderComponent } from './main/slider/slider.component';
-import { SwiperModule } from 'swiper/angular';
 
 @NgModule({
   declarations: [
@@ -23,7 +23,7 @@ import { SwiperModule } from 'swiper/angular';
     NewprodComponent,
     HeroComponent,
     CouterComponent,
-    WedoComponent,  ],
+    WedoComponent,
     SliderComponent,  ],
   imports: [
     BrowserModule,

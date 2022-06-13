@@ -17,7 +17,7 @@ a {
   text-decoration: none;
 }
 
-.container{
+.container {
   max-width: 1240px;
   width: 100%;
   margin: 0 auto;
@@ -27,11 +27,20 @@ a {
   display: flex;
 }
 
-.btn{
+.btn {
   cursor: pointer;
   color: white;
   padding: 16px 80px;
   border: none;
   outline: none;
   border-radius: 10px;
+}
+
+.section {
+  display: block;
+}
+
+.section-padding {
+  padding-top: 37px;
+  padding-bottom: 37px;
 }

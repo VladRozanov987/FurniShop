@@ -1,0 +1,51 @@
+.wedo__img{
+  border-radius: 6px;
+  margin-right: 100px;
+}
+
+.wedo__des{
+  color: black;
+}
+
+.wedo__des__title{
+  min-width: 508px;
+  margin-bottom: 14px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.3;
+}
+
+.wedo__des__subtitle{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 170%;
+}
+
+.wedo__header{
+  margin-top: 38px;
+}
+
+.wedo__header__top{
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.wedo__header__des{
+  margin-left: 19px;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.wedo__header__low__des{
+  margin-left: 45px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.wedo__header__low__des:not(:last-child){
+  margin-bottom: 25px;
+}
