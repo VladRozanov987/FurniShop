@@ -9,6 +9,8 @@ import { MenuComponent } from './menu/menu.component';
 import { MainComponent } from './main/main.component';
 import { NewprodComponent } from './main/newprod/newprod.component';
 import { HeroComponent } from './main/hero/hero.component';
+import { CouterComponent } from './main/counter/counter.component';
+import { WedoComponent } from './main/wedo/wedo.component';
 import { SliderComponent } from './main/slider/slider.component';
 import { SwiperModule } from 'swiper/angular';
 
@@ -20,6 +22,8 @@ import { SwiperModule } from 'swiper/angular';
     MainComponent,
     NewprodComponent,
     HeroComponent,
+    CouterComponent,
+    WedoComponent,  ],
     SliderComponent,  ],
   imports: [
     BrowserModule,
