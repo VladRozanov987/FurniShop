@@ -2,15 +2,15 @@
   <div class="slider__container container">
     <h2 class="slider__title">All Product</h2>
     <p class="slider__subtitle">The products we provide only for you as our service are selected from the best products with number 1 quality in the world</p>
-    <swiper [pagination]="true" class="mySwiper">
+    <swiper [pagination]="pagination" class="mySwiper">
       <ng-template swiperSlide *ngFor="let item of sliderItems">
         <div class="slider__wrap__grid">
           <div class="slider__wrap__grid-item" *ngFor="let item2 of item">
             <img class="slider__item-img" src="{{ item2.img }}" alt="{{ item2.title }}">
             <h3 class="slider__item-title">{{ item2.title }}</h3>
             <div class="slider__item-price flex">
-              <p class="slider__item-price-new"> {{ item2.price }}</p>
-              <p class="slider__item-price-old"> {{ item2.oldPrice }}</p>
+              <p class="slider__item-price-new">${{ item2.price }}</p>
+              <p class="slider__item-price-old" *ngIf="item2.oldPrice">${{ item2.oldPrice }}</p>
             </div>
           </div>
         </div>
@@ -18,4 +18,3 @@
     </swiper>
   </div>
 </div>
-

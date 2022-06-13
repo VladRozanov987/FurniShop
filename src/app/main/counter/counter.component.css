@@ -1,5 +1,4 @@
 .counter__info{
-  margin: 85px 0;
   padding: 38px 38px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
