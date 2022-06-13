@@ -7,6 +7,8 @@ import { MenuComponent } from './menu/menu.component';
 import { MainComponent } from './main/main.component';
 import { NewprodComponent } from './newprod/newprod.component';
 import { HeroComponent } from './main/hero/hero.component';
+import { CouterComponent } from './main/counter/counter.component';
+import { WedoComponent } from './main/wedo/wedo.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { HeroComponent } from './main/hero/hero.component';
     MenuComponent,
     MainComponent,
     NewprodComponent,
-    HeroComponent,  ],
+    HeroComponent,
+    CouterComponent,
+    WedoComponent,  ],
   imports: [
     BrowserModule
   ],
