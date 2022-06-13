@@ -13,6 +13,8 @@ import { CouterComponent } from './main/counter/counter.component';
 import { WedoComponent } from './main/wedo/wedo.component';
 import { SliderComponent } from './main/slider/slider.component';
 import { SwiperModule } from 'swiper/angular';
+import { FormComponent } from './main/form/form.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,8 +25,10 @@ import { SwiperModule } from 'swiper/angular';
     NewprodComponent,
     HeroComponent,
     CouterComponent,
-    WedoComponent,  ],
-    SliderComponent,  ],
+    WedoComponent,
+    SliderComponent,
+    FormComponent,
+    FooterComponent,],
   imports: [
     BrowserModule,
     SwiperModule,
