@@ -1,3 +1,4 @@
+import { IFooterSocItems } from "../../ts/interface/global.interface";
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
 
-  footerSocial = [
+  footerSocial: IFooterSocItems[] = [
     {img: './../assets/icons/footer__icons/insta.png'},
     {img: './../assets/icons/footer__icons/facebook.png'},
     {img: './../assets/icons/footer__icons/twitter.png'},

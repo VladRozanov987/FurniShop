@@ -1,14 +1,14 @@
 .wedo__img{
   border-radius: 6px;
-  margin-right: 100px;
 }
 
 .wedo__des{
   color: black;
+  margin-left: 100px;
 }
 
 .wedo__des__title{
-  min-width: 508px;
+  max-width: 506px;
   margin-bottom: 14px;
   font-weight: 600;
   font-size: 40px;

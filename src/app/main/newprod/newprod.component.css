@@ -6,7 +6,7 @@
 .newprod__grid{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  column-gap: 20px;
+  column-gap: 10px;
 }
 
 .newprod__grid__des{
@@ -22,14 +22,13 @@
 
 .newprod__grid__des-text{
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.7;
   letter-spacing: 0.01em;
   margin-bottom: 48px;
 }
 
-.newprod-btn{
-  background: inherit;
+.newprod-btn {
   color: black;
   display: flex;
   align-items: center;
@@ -38,13 +37,20 @@
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: .01em;
-  text-decoration-line: underline;
+  text-decoration: underline 1px ;
   transition: all .3s;
 }
 
-.newprod-btn:hover,
+.newprod-btn > svg {
+  margin-left: 10px;
+}
+
+.newprod-btn:hover > svg {
+  animation: 2s arrow-fload infinite;
+}
+
 .newprod__grid__card:hover{
-  transform: scale(1.1);
+  transform: scale(1.02);
 }
 
 .newprod-btn img{
@@ -82,4 +88,18 @@
 
 .lights{
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.25) 100%), url(./../../../assets/img/lights.jpg);
+}
+
+@keyframes arrow-fload {
+  0% {
+    transform: translateX(0);
+  }
+  
+  50% {
+    transform: translateX(15%);
+  }
+  
+  100% {
+    transform: translateX(0);
+  }
 }

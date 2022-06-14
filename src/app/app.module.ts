@@ -4,9 +4,9 @@ import { FormsModule } from "@angular/forms";
 import { CommonModule } from '@angular/common';
 import { SwiperModule } from 'swiper/angular';
 
-import { HeaderComponent } from './header/header.component';
 import { AppComponent } from './app.component';
-import { MenuComponent } from './menu/menu.component';
+import { HeaderComponent } from './header/header.component';
+import { MenuComponent } from './header/menu/menu.component';
 import { MainComponent } from './main/main.component';
 import { NewprodComponent } from './main/newprod/newprod.component';
 import { HeroComponent } from './main/hero/hero.component';

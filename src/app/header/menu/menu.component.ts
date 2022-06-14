@@ -1,9 +1,5 @@
 import { Component} from '@angular/core';
-
-interface Menu {
-  label: string,
-  href: string
-}
+import { IHeaderNavbarItems } from 'src/ts/interface/global.interface';
 
 @Component({
   selector: 'app-menu',
@@ -12,7 +8,7 @@ interface Menu {
 })
 export class MenuComponent {
 
-  menu: Menu[] = [
+  menu: IHeaderNavbarItems[] = [
     {label: 'Home', href: '#' },
     {label: 'About', href: '#' },
     {label: 'Features', href: '#' },

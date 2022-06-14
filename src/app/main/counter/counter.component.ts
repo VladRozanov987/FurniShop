@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ICouterItems } from 'src/ts/interface/global.interface';
 
 @Component({
   selector: 'section-counter',
@@ -7,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class CouterComponent {
 
-  conterItems = [
+  conterItems: ICouterItems[] = [
     {value: '7', label: 'Year Experience'},
     {value: '2', label: 'Opened in the country'},
     {value: '10k+', label: 'Furniture sold'},
