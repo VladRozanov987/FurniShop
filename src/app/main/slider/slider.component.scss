@@ -10,8 +10,6 @@
   text-align: center;
   font-size: 18px;
   background: #fff;
-
-  /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -35,8 +33,8 @@
   height: 10px;
   margin: 0 !important;
   background: transparent;
-  border: 1px solid #23262F;
-  transition: all .3s;
+  border: 1px solid #23262f;
+  transition: all 0.3s;
   opacity: 1;
 }
 
@@ -45,7 +43,7 @@
 }
 
 .swiper-pagination-bullet-active {
-  background: #23262F;
+  background: #23262f;
 }
 
 .slider {
@@ -112,6 +110,6 @@
   font-size: 14px;
   line-height: 1.65;
   text-decoration-line: line-through;
-  color: #23262F;
+  color: #23262f;
   opacity: 0.5;
 }
